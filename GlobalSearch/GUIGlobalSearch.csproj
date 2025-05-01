@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -16,7 +16,7 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -37,11 +37,12 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\debug\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -51,32 +52,33 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Common.Utils">
       <HintPath>..\Externals\Common.Utils.dll</HintPath>
     </Reference>
-    <Reference Include="Core, Version=1.1.5.15391, Culture=neutral, processorArchitecture=x86">
+    <Reference Include="Core">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Externals\Core.dll</HintPath>
     </Reference>
-    <Reference Include="Databases, Version=1.1.5.15394, Culture=neutral, processorArchitecture=x86">
+    <Reference Include="Databases">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Externals\Databases.dll</HintPath>
     </Reference>
-    <Reference Include="Dialogs, Version=1.1.5.15397, Culture=neutral, processorArchitecture=x86">
+    <Reference Include="Dialogs">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Externals\Dialogs.dll</HintPath>
     </Reference>
     <Reference Include="GUIMusic">
       <HintPath>..\Externals\GUIMusic.dll</HintPath>
     </Reference>
-    <Reference Include="LyricsEngine, Version=0.23.0.0, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="LyricsEngine">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Externals\LyricsEngine.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.DirectX.Direct3D, Version=1.0.2902.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+    <Reference Include="Microsoft.DirectX.Direct3D">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\MediaPortal 1.0\MediaPortal.Base\Microsoft.DirectX.Direct3D.dll</HintPath>
     </Reference>
@@ -85,7 +87,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.XML" />
-    <Reference Include="Utils, Version=1.1.5.15386, Culture=neutral, processorArchitecture=x86">
+    <Reference Include="Utils">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Externals\Utils.dll</HintPath>
     </Reference>
@@ -116,7 +118,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Properties\VersionInfo.cs" />
     <Compile Include="StringList.cs" />
     <Compile Include="Strings.cs" />
     <Compile Include="GUI\Translations.cs" />
@@ -126,7 +127,6 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
-    <None Include="Properties\VersionInfo.cs.tmpl" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Configuration\FormGlobalSearchSettings.resx">
@@ -216,6 +216,5 @@
   -->
   <PropertyGroup>
     <PostBuildEvent>if exist $(SolutionDir)PostBuild.bat call $(SolutionDir)PostBuild.bat $(SolutionDir) $(ConfigurationName)</PostBuildEvent>
-    <PreBuildEvent>subwcrev "$(SolutionDir)..\." "$(ProjectDir)Properties\VersionInfo.cs.tmpl" "$(ProjectDir)Properties\VersionInfo.cs"</PreBuildEvent>
   </PropertyGroup>
 </Project>

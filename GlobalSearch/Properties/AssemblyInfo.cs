@@ -11,7 +11,7 @@ using MediaPortal.Common.Utils;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("MediaPortal")]
-[assembly: AssemblyCopyright("Copyright © 2007-2014")]
+[assembly: AssemblyCopyright("Copyright © 2007-2025")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -35,4 +35,5 @@ using MediaPortal.Common.Utils;
 
 [assembly: CompatibleVersion("1.6.100.0")]
 
-
+[assembly: AssemblyVersion("2.1.0.999")]
+[assembly: AssemblyFileVersion("2.1.0.999")]
