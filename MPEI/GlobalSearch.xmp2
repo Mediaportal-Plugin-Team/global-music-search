@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0</Version>
+  <Groups>
+    <Items>
+      <GroupItem Name="Default">
+        <ParentGroup />
+        <DisplayName>Default</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Main program files for Global Search plugin.</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\bin\Release\GUIGlobalSearch.dll</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7d08b4d4-0f72-4dcf-9e6b-554744fb6ef3}-GUIGlobalSearch.dll</ZipFileName>
+              <DestinationFilename>%Plugins%\Windows\GUIGlobalSearch.dll</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Languages">
+        <ParentGroup />
+        <DisplayName>Languages</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Translations for the Global Search plugin.</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\en-US.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{700df85c-8613-4029-9b4e-ad8c33a9e9cb}-en-US.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\en-US.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\da.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7fbb48e5-3bdf-4b6b-813f-d7b5ba8724b3}-da.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\da.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\de.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5522f190-5cd1-43ab-8541-33b49cd800e6}-de.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\de.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\pl.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{93eb2680-c7e2-4d67-88a9-36fab6e7b5ff}-pl.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\pl.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\nl.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4e93f28e-206a-4e01-a89f-9e5ea0040e99}-nl.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\nl.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\ca.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3a13a719-1c30-4fdc-afec-16d526499054}-ca.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\ca.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\cs.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6690d149-36a9-48c8-9468-055e5f6542cf}-cs.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\cs.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\el.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{2d309741-3fe8-4e13-bc92-0162e4692e6f}-el.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\el.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\es.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f7b1fb17-2d21-4fac-a807-a67a5b76b8b4}-es.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\es.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\fi.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c109ec01-88a5-4677-832a-d2147ed842e2}-fi.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\fi.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\fr.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e1e015b9-4ec7-49d3-a82a-48ea31afe940}-fr.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\fr.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\hr.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1c466929-29e8-4f35-965c-e9a1037fc4bb}-hr.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\hr.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\it.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6e420e6a-8848-4de8-b6a6-104cd56a15c7}-it.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\it.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\lt.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8513713c-52ec-4f80-b246-6fbf2a386229}-lt.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\lt.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\nb.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6a565a74-abf3-4fe0-aae8-05309408ccd1}-nb.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\nb.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\no.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5c4dc188-58a0-4109-8dd7-cbeca5a9e504}-no.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\no.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\ru.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{04468f7c-6cf7-465b-ab3a-8b8a1ed3b9ab}-ru.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\ru.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\sk.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0e28e9b3-d69f-461e-8dc4-fe2779c3ae18}-sk.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\sk.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\sl.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a2c99446-ab50-49c2-a2a9-b33c53a29cc1}-sl.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\sl.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\sv.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ad23b14b-f70e-48e1-8f6d-2f8e8f5b1c4c}-sv.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\sv.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\tr.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e56245f8-4b18-4c49-8520-192f1796fbcb}-tr.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\tr.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\et.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b9ab5e4f-66ba-4326-a2c4-c0cd6c1f69ee}-et.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\et.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\is.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e7766674-d936-4e36-8ef0-871292b30342}-is.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\is.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\ku.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b090f5b1-90ff-478c-8c19-cf060f35404d}-ku.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\ku.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\vi.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e0d057f8-7951-41d0-b4c7-b5432120122d}-vi.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\vi.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Languages\pt.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{37c64ab2-4070-4457-9720-754d6e9a83c1}-pt.xml</ZipFileName>
+              <DestinationFilename>%Language%\GlobalSearch\pt.xml</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="Skins">
+        <ParentGroup />
+        <DisplayName>Skins</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Global Search support for MediaPortal's default skins.</Description>
+        <Files>
+          <Items />
+        </Files>
+      </GroupItem>
+      <GroupItem Name="DefaultSkin">
+        <ParentGroup>Skins</ParentGroup>
+        <DisplayName>Default</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Default (4:3) skins support.</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Skins\Default\GlobalSearch.Music.Details.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ebb4c143-d2d9-454d-a88b-6555e4e2780d}-GlobalSearch.Music.Details.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Default\GlobalSearch.Music.Details.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Skins\Default\GlobalSearch.Music.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{90fc3463-6d66-411a-a751-cdf030cfc6fc}-GlobalSearch.Music.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Default\GlobalSearch.Music.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Skins\Default\Media\hover_Search music.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c90d33ea-ac11-499a-914b-47b0d0415d49}-hover_Search music.png</ZipFileName>
+              <DestinationFilename>%Skin%\Default\Media\hover_Search music.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Skins\Default\Media\Logos\globalsearch.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a6416a25-998a-4cc0-9c31-fb0826f45de1}-globalsearch.png</ZipFileName>
+              <DestinationFilename>%Skin%\Default\Media\Logos\globalsearch.png</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+      <GroupItem Name="DefaultWideSkin">
+        <ParentGroup>Skins</ParentGroup>
+        <DisplayName>Default Wide</DisplayName>
+        <DefaulChecked>true</DefaulChecked>
+        <Description>Default Wide (16:9) skins support.</Description>
+        <Files>
+          <Items>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Skins\DefaultWide\GlobalSearch.Music.Details.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0e644074-37ef-461a-8817-72d40af52829}-GlobalSearch.Music.Details.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\GlobalSearch.Music.Details.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Skins\DefaultWide\GlobalSearch.Music.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9da9db15-b688-4ba1-a4d7-d90a789b4d27}-GlobalSearch.Music.xml</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\GlobalSearch.Music.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Skins\DefaultWide\Media\hover_Search music.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{786c3ec9-81f2-4e09-ab5e-f2dc70287de2}-hover_Search music.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\Media\hover_Search music.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\GlobalSearch\Resources\Skins\DefaultWide\Media\Logos\globalsearch.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6f167e3c-2176-4007-90ab-031d5c700d30}-globalsearch.png</ZipFileName>
+              <DestinationFilename>%Skin%\DefaultWide\Media\Logos\globalsearch.png</DestinationFilename>
+            </FileItem>
+          </Items>
+        </Files>
+      </GroupItem>
+    </Items>
+  </Groups>
+  <Sections>
+    <Items>
+      <SectionItem Guid="680c129d-f920-4a1f-a37d-ffd90f560b3b" Name="Welcome Screen" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header text">
+              <Value>Welcome to the Setup Wizard for [Name]</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Description">
+              <Value>This will install [Name] v[Version] on your computer. 
+It is recommended that you close all other applications before continuing.
+
+Click Next to continue or Cancel to exit Setup.
+</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Left part image">
+              <Value>..\GlobalSearch\Resources\Images\sidebanners.png</Value>
+              <ValueType>File</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Welcome Screen</PanelName>
+        <WizardButtonsEnum>NextCancel</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="2fe1cc41-54eb-4a17-9486-5fd313d7055d" Name="Tree View Selector" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header Title">
+              <Value>Select Features</Value>
+              <ValueType>String</ValueType>
+              <Description>Header title</Description>
+            </SectionParam>
+            <SectionParam Name="Header description">
+              <Value>Select the features setup will install</Value>
+              <ValueType>String</ValueType>
+              <Description>Description of section, shown in under section title</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value>..\GlobalSearch\Resources\Images\search_music.png</Value>
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+            <SectionParam Name="Description ">
+              <Value>Select the features you want to install, and deselect the features you do not want to install.</Value>
+              <ValueType>String</ValueType>
+              <Description>Description of this operation</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups>
+          <string>Languages</string>
+          <string>Skins</string>
+          <string>DefaultSkin</string>
+          <string>DefaultWideSkin</string>
+        </IncludedGroups>
+        <PanelName>Tree View Selector</PanelName>
+        <WizardButtonsEnum>BackNextCancel</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="0576a297-394a-4ed7-97a3-0bb5b54573bc" Name="Install Section" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header Title">
+              <Value>Status</Value>
+              <ValueType>String</ValueType>
+              <Description>Header title</Description>
+            </SectionParam>
+            <SectionParam Name="Header description">
+              <Value>Please wait while [Name] is being installed</Value>
+              <ValueType>String</ValueType>
+              <Description>Description of section, shown in under section title</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value>..\GlobalSearch\Resources\Images\search_music.png</Value>
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items>
+            <ActionItem Name="InstallFiles" ActionType="InstallFiles" ConditionGroup="">
+              <Params>
+                <Items />
+              </Params>
+              <ExecuteLocation>AfterPanelShow</ExecuteLocation>
+            </ActionItem>
+            <ActionItem Name="ClearSkinCache" ActionType="ClearSkinCache" ConditionGroup="Skins">
+              <Params>
+                <Items />
+              </Params>
+              <ExecuteLocation>AfterPanelShow</ExecuteLocation>
+            </ActionItem>
+          </Items>
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Install Section</PanelName>
+        <WizardButtonsEnum>Next</WizardButtonsEnum>
+      </SectionItem>
+      <SectionItem Guid="596712c0-0a1c-44ec-8907-19e428dae9cd" Name="Setup Complete" ConditionGroup="">
+        <Params>
+          <Items>
+            <SectionParam Name="Header text">
+              <Value>The Setup Wizard has successfully installed [Name].</Value>
+              <ValueType>String</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Left part image">
+              <Value>..\GlobalSearch\Resources\Images\sidebanners.png</Value>
+              <ValueType>File</ValueType>
+              <Description />
+            </SectionParam>
+            <SectionParam Name="Show radio buttons">
+              <Value>NO</Value>
+              <ValueType>Bool</ValueType>
+              <Description>Use radiobutton in place of combobox</Description>
+            </SectionParam>
+            <SectionParam Name="Header image">
+              <Value />
+              <ValueType>File</ValueType>
+              <Description>Image in upper right part</Description>
+            </SectionParam>
+          </Items>
+        </Params>
+        <Actions>
+          <Items />
+        </Actions>
+        <IncludedGroups />
+        <PanelName>Setup Complete</PanelName>
+        <WizardButtonsEnum>Finish</WizardButtonsEnum>
+      </SectionItem>
+    </Items>
+  </Sections>
+  <Dependencies>
+    <Items>
+      <DependencyItem>
+        <Type>MediaPortal</Type>
+        <Id />
+        <MinVersion>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>6</Build>
+          <Revision>27644</Revision>
+        </MinVersion>
+        <MaxVersion>
+          <Major>1</Major>
+          <Minor>1</Minor>
+          <Build>6</Build>
+          <Revision>27644</Revision>
+        </MaxVersion>
+        <WarnOnly>false</WarnOnly>
+        <Message>This version of Global Search plugin is only supported on MediaPortal 1.7 or above.</Message>
+        <Name>MediaPortal</Name>
+      </DependencyItem>
+    </Items>
+  </Dependencies>
+  <PluginDependencies>
+    <Items>
+      <PluginDependencyItem AssemblyName="GUIGlobalSearch.dll">
+        <CompatibleVersion>
+          <Items>
+            <CompatibleVersionItem>
+              <MinRequiredVersion>1.6.100.0</MinRequiredVersion>
+              <DesignedForVersion>1.6.100.0</DesignedForVersion>
+            </CompatibleVersionItem>
+          </Items>
+        </CompatibleVersion>
+        <SubSystemsUsed>
+          <Items />
+        </SubSystemsUsed>
+      </PluginDependencyItem>
+    </Items>
+  </PluginDependencies>
+  <GeneralInfo>
+    <Name>Global Search</Name>
+    <Id>fac44102-7190-4006-b7aa-60d0e7c17638</Id>
+    <Author>d-fader, trevor, ltfearme</Author>
+    <HomePage>http://code.google.com/p/mediaportal-globalserach/</HomePage>
+    <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/new-plugin-global-music-search-version-1-7-0-a-24057/</ForumPage>
+    <UpdateUrl>http://mediaportal-globalserach.googlecode.com/svn/trunk/MPEI/update.xml</UpdateUrl>
+    <Version>
+      <Major>2</Major>
+      <Minor>0</Minor>
+      <Build>0</Build>
+      <Revision>74</Revision>
+    </Version>
+    <ExtensionDescription>Global Search allows you to search through your complete music library and provides functionality to control what you want to do with the search results such as 'Add to Playlist'.</ExtensionDescription>
+    <VersionDescription>* Updated support for MediaPortal v1.7.</VersionDescription>
+    <DevelopmentStatus>Stable</DevelopmentStatus>
+    <OnlineLocation>http://mediaportal-globalserach.googlecode.com/files/GlobalSearch-[Version].mpe1</OnlineLocation>
+    <ReleaseDate>2014-02-19T14:45:14</ReleaseDate>
+    <Tags>search,music</Tags>
+    <Location>.\Release\GlobalSearch-[Version].mpe1</Location>
+    <Params>
+      <Items>
+        <SectionParam Name="Icon">
+          <Value>..\GlobalSearch\Resources\Images\search_music.png</Value>
+          <ValueType>File</ValueType>
+          <Description>The icon file of the package (jpg,png,bmp)</Description>
+        </SectionParam>
+        <SectionParam Name="Online Icon">
+          <Value>http://mediaportal-globalserach.googlecode.com/svn/trunk/GlobalSearch/Resources/Images/search_music.png</Value>
+          <ValueType>String</ValueType>
+          <Description>The icon file of the package stored online (jpg,png,bmp)</Description>
+        </SectionParam>
+        <SectionParam Name="Configuration file">
+          <Value>%Plugins%\Windows\GUIGlobalSearch.dll</Value>
+          <ValueType>Template</ValueType>
+          <Description>The file used to configure the extension.
+ If have .exe extension the will be executed
+ If have .dll extension used like MP plugin configuration</Description>
+        </SectionParam>
+        <SectionParam Name="Online Screenshots">
+          <Value />
+          <ValueType>String</ValueType>
+          <Description>Online stored screenshot urls separated by ; </Description>
+        </SectionParam>
+        <SectionParam Name="Force to uninstall on update">
+          <Value>YES</Value>
+          <ValueType>Bool</ValueType>
+          <Description>Show dialog and force to uninstall previous version when updating an extension. Should only be disabled if you are using an NSIS/MSI installer.</Description>
+        </SectionParam>
+      </Items>
+    </Params>
+  </GeneralInfo>
+  <UniqueFileList>
+    <Items>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\bin\Release\GUIGlobalSearch.dll</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7d08b4d4-0f72-4dcf-9e6b-554744fb6ef3}-GUIGlobalSearch.dll</ZipFileName>
+        <DestinationFilename>%Plugins%\Windows\GUIGlobalSearch.dll</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\en-US.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{700df85c-8613-4029-9b4e-ad8c33a9e9cb}-en-US.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\en-US.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\da.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7fbb48e5-3bdf-4b6b-813f-d7b5ba8724b3}-da.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\da.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\de.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5522f190-5cd1-43ab-8541-33b49cd800e6}-de.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\de.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\pl.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{93eb2680-c7e2-4d67-88a9-36fab6e7b5ff}-pl.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\pl.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\nl.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4e93f28e-206a-4e01-a89f-9e5ea0040e99}-nl.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\nl.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\ca.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3a13a719-1c30-4fdc-afec-16d526499054}-ca.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\ca.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\cs.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6690d149-36a9-48c8-9468-055e5f6542cf}-cs.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\cs.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\el.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{2d309741-3fe8-4e13-bc92-0162e4692e6f}-el.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\el.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\es.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f7b1fb17-2d21-4fac-a807-a67a5b76b8b4}-es.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\es.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\fi.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c109ec01-88a5-4677-832a-d2147ed842e2}-fi.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\fi.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\fr.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e1e015b9-4ec7-49d3-a82a-48ea31afe940}-fr.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\fr.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\hr.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1c466929-29e8-4f35-965c-e9a1037fc4bb}-hr.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\hr.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\it.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6e420e6a-8848-4de8-b6a6-104cd56a15c7}-it.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\it.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\lt.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8513713c-52ec-4f80-b246-6fbf2a386229}-lt.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\lt.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\nb.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6a565a74-abf3-4fe0-aae8-05309408ccd1}-nb.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\nb.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\no.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5c4dc188-58a0-4109-8dd7-cbeca5a9e504}-no.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\no.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\ru.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{04468f7c-6cf7-465b-ab3a-8b8a1ed3b9ab}-ru.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\ru.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\sk.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0e28e9b3-d69f-461e-8dc4-fe2779c3ae18}-sk.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\sk.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\sl.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a2c99446-ab50-49c2-a2a9-b33c53a29cc1}-sl.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\sl.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\sv.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ad23b14b-f70e-48e1-8f6d-2f8e8f5b1c4c}-sv.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\sv.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\tr.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e56245f8-4b18-4c49-8520-192f1796fbcb}-tr.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\tr.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\et.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b9ab5e4f-66ba-4326-a2c4-c0cd6c1f69ee}-et.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\et.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\is.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e7766674-d936-4e36-8ef0-871292b30342}-is.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\is.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\ku.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b090f5b1-90ff-478c-8c19-cf060f35404d}-ku.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\ku.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\vi.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e0d057f8-7951-41d0-b4c7-b5432120122d}-vi.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\vi.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Languages\pt.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{37c64ab2-4070-4457-9720-754d6e9a83c1}-pt.xml</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch\pt.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Skins\Default\GlobalSearch.Music.Details.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ebb4c143-d2d9-454d-a88b-6555e4e2780d}-GlobalSearch.Music.Details.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Default\GlobalSearch.Music.Details.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Skins\Default\GlobalSearch.Music.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{90fc3463-6d66-411a-a751-cdf030cfc6fc}-GlobalSearch.Music.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Default\GlobalSearch.Music.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Skins\Default\Media\hover_Search music.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c90d33ea-ac11-499a-914b-47b0d0415d49}-hover_Search music.png</ZipFileName>
+        <DestinationFilename>%Skin%\Default\Media\hover_Search music.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Skins\Default\Media\Logos\globalsearch.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a6416a25-998a-4cc0-9c31-fb0826f45de1}-globalsearch.png</ZipFileName>
+        <DestinationFilename>%Skin%\Default\Media\Logos\globalsearch.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Skins\DefaultWide\GlobalSearch.Music.Details.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0e644074-37ef-461a-8817-72d40af52829}-GlobalSearch.Music.Details.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\GlobalSearch.Music.Details.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Skins\DefaultWide\GlobalSearch.Music.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9da9db15-b688-4ba1-a4d7-d90a789b4d27}-GlobalSearch.Music.xml</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\GlobalSearch.Music.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Skins\DefaultWide\Media\hover_Search music.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{786c3ec9-81f2-4e09-ab5e-f2dc70287de2}-hover_Search music.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\Media\hover_Search music.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Skins\DefaultWide\Media\Logos\globalsearch.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6f167e3c-2176-4007-90ab-031d5c700d30}-globalsearch.png</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide\Media\Logos\globalsearch.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Images\sidebanners.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0f30bd15-f118-4631-93c3-163e41d94a7d}-sidebanners.png</ZipFileName>
+        <DestinationFilename />
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="true" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\GlobalSearch\Resources\Images\search_music.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5e756abc-bdbb-4174-a4f1-e3c558a87421}-search_music.png</ZipFileName>
+        <DestinationFilename />
+      </FileItem>
+    </Items>
+  </UniqueFileList>
+  <ProjectSettings>
+    <FolderGroups>
+      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName />
+        <ZipFileName>Installer{CopyFile}\{d4dc2db1-6059-49b5-abe0-3e857727e131}-</ZipFileName>
+        <DestinationFilename>%Language%\GlobalSearch</DestinationFilename>
+        <Folder>..\GlobalSearch\Resources\Languages</Folder>
+        <Group>Languages</Group>
+        <Recursive>true</Recursive>
+      </FolderGroup>
+      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName />
+        <ZipFileName>Installer{CopyFile}\{aae095d5-6659-4ad5-9bb3-40e258990f08}-</ZipFileName>
+        <DestinationFilename>%Skin%\Default</DestinationFilename>
+        <Folder>..\GlobalSearch\Resources\Skins\Default</Folder>
+        <Group>DefaultSkin</Group>
+        <Recursive>true</Recursive>
+      </FolderGroup>
+      <FolderGroup InstallType="CopyFile" SystemFile="false" Modified="true">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName />
+        <ZipFileName>Installer{CopyFile}\{1ab01c26-625c-4deb-a3bb-a90641654f88}-</ZipFileName>
+        <DestinationFilename>%Skin%\DefaultWide</DestinationFilename>
+        <Folder>..\GlobalSearch\Resources\Skins\DefaultWide</Folder>
+        <Group>DefaultWideSkin</Group>
+        <Recursive>true</Recursive>
+      </FolderGroup>
+    </FolderGroups>
+    <ProjectFilename>GlobalSearch.xmp2</ProjectFilename>
+    <UpdatePath1>.\update.xml</UpdatePath1>
+    <UpdatePath2 />
+    <UpdatePath3 />
+  </ProjectSettings>
+  <IsSkin>false</IsSkin>
+</PackageClass>
