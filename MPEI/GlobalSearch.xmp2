@@ -493,9 +493,10 @@ Click Next to continue or Cancel to exit Setup.
     <Name>Global Search</Name>
     <Id>fac44102-7190-4006-b7aa-60d0e7c17638</Id>
     <Author>d-fader, trevor, ltfearme</Author>
-    <HomePage>http://code.google.com/p/mediaportal-globalserach/</HomePage>
+    <HomePage>https://github.com/Mediaportal-Plugin-Team/global-music-search</HomePage>
     <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/new-plugin-global-music-search-version-1-7-0-a-24057/</ForumPage>
     <UpdateUrl>http://mediaportal-globalserach.googlecode.com/svn/trunk/MPEI/update.xml</UpdateUrl>
+    <UpdateUrl>https://raw.github.com/Mediaportal-Plugin-Team/global-music-search/master/MPEI/update.xml</UpdateUrl>
     <Version>
       <Major>2</Major>
       <Minor>1</Minor>
@@ -505,11 +506,11 @@ Click Next to continue or Cancel to exit Setup.
     <ExtensionDescription>Global Search allows you to search through your complete music library and provides functionality to control what you want to do with the search results such as 'Add to Playlist'.</ExtensionDescription>
     <VersionDescription>Support for MediaPortal x86/x64</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
-    <OnlineLocation>http://mediaportal-globalserach.googlecode.com/files/GlobalSearch-[Version].mpe1</OnlineLocation>
-    <ReleaseDate>2014-02-19T14:45:14</ReleaseDate>
+    <OnlineLocation>https://github.com/Mediaportal-Plugin-Team/global-music-search/releases/download/v[Version]/GlobalSearch-v[Version].mpe1</OnlineLocation>
+    <ReleaseDate>2025-05-01T14:45:14</ReleaseDate>
     <Tags>search,music</Tags>
     <PlatformCompatibility>AnyCPU</PlatformCompatibility>
-    <Location>.\Release\GlobalSearch-[Version].mpe1</Location>
+    <Location>.\Release\GlobalSearch-v[Version].mpe1</Location>
     <Params>
       <Items>
         <SectionParam Name="Icon">
