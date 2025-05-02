@@ -495,7 +495,6 @@ Click Next to continue or Cancel to exit Setup.
     <Author>d-fader, trevor, ltfearme</Author>
     <HomePage>https://github.com/Mediaportal-Plugin-Team/global-music-search</HomePage>
     <ForumPage>http://forum.team-mediaportal.com/mediaportal-plugins-47/new-plugin-global-music-search-version-1-7-0-a-24057/</ForumPage>
-    <UpdateUrl>http://mediaportal-globalserach.googlecode.com/svn/trunk/MPEI/update.xml</UpdateUrl>
     <UpdateUrl>https://raw.github.com/Mediaportal-Plugin-Team/global-music-search/master/MPEI/update.xml</UpdateUrl>
     <Version>
       <Major>2</Major>
@@ -507,7 +506,7 @@ Click Next to continue or Cancel to exit Setup.
     <VersionDescription>Support for MediaPortal x86/x64</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://github.com/Mediaportal-Plugin-Team/global-music-search/releases/download/v[Version]/GlobalSearch-v[Version].mpe1</OnlineLocation>
-    <ReleaseDate>2025-05-01T14:45:14</ReleaseDate>
+    <ReleaseDate>2025-05-01T13:13:13</ReleaseDate>
     <Tags>search,music</Tags>
     <PlatformCompatibility>AnyCPU</PlatformCompatibility>
     <Location>.\Release\GlobalSearch-v[Version].mpe1</Location>
